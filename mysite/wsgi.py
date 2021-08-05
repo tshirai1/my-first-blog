@@ -1,3 +1,6 @@
+## memo
+## wsgi.py ... プロジェクトをサーブするためのWSGI互換Webサーバーとのエントリーポイント。
+
 """
 WSGI config for mysite project.
 

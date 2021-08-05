@@ -1,3 +1,6 @@
+## memo
+## manage.py ... プロジェクトに対する様々な操作を行うためのコマンドラインユーティリティ｡
+
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
 import os

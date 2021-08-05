@@ -1,3 +1,6 @@
+## memo
+## settings.py ... プロジェクトの設定ファイル。
+
 """
 Django settings for mysite project.
 
@@ -31,12 +34,21 @@ ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 # Application definition
 
 INSTALLED_APPS = [
+	# フォルダ名.ファイル名.クラス名
+	# 【標準装備されている機能】
+	# Django管理サイト
     'django.contrib.admin',
+	# ユーザー認証
     'django.contrib.auth',
+	# モデル情報の取り扱い
     'django.contrib.contenttypes',
+	# セッション管理
     'django.contrib.sessions',
+	# メッセージ表示処理
     'django.contrib.messages',
+	# 静的ファイル公開
     'django.contrib.staticfiles',
+	# 【後付けの機能？】
     'blog.apps.BlogConfig',
 ]
 

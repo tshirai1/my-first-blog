@@ -1,3 +1,6 @@
+## memo
+## urls.py ... プロジェクトのURL宣言、いうなれば Django サイトにおける「目次」。
+
 """mysite URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
