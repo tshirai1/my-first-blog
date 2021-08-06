@@ -48,7 +48,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
 	# 静的ファイル公開
     'django.contrib.staticfiles',
-	# 【後付けの機能？】
+	# 【後付けの機能】
+	# 
     'blog.apps.BlogConfig',
 ]
 

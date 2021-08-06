@@ -1,3 +1,6 @@
+## memo
+## blog/views.pyと深い関係
+
 from django.urls import path
 from . import views
 
